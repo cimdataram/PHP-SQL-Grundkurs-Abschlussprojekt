@@ -11,7 +11,7 @@ ALLGEMEIN:
   
     > stärker dynamisieren:
       > Spaltennamen aus Datenbank fetchen und über Schleifen als dynamische Variablen abrufen
-      >x Statt Variablennamen hardcoden
+      > Statt Variablennamen hardcoden
       
       > um durch direkte Arbeit in der Datenbank redundante und mehrfache Skriptänderungen in PHP zu vermeiden
     > Live-Kontrolle von User-Inputs ermöglichen damit User im Momment der Eingabe Feedback über Plausibiliät seiner Eingabedaten erhält
