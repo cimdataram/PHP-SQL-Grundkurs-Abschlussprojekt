@@ -27,23 +27,29 @@ info.php
 
 ____________________________________________________________________________________________________________________
 account.php
+
     Abstrakt:
+    
       > Nach erfolgreichem Login können Kunden hier Ihre Unternehmensdaten eintragen
       > Erst vollständiger und plausibler Eingabe und Speicherung der Daten in die Datenbank, Zugriff auf (fiktive) Service-Sektion
 
     Konkret:
+    
       > Bei leer gelassenem Pflichtfeld Fomrularfeld rot umranden
       > Bei fehlgeschlagener Plausibilität 
           > Formularfeld rot umranden und Infobutton rot färben
           > Über Tooltip individuelle Fehlermeldung anhand Plausibilität je Formularfeld
 
     To Do:
+    
       > bislang aus Zeitgründen auf Passwortupdate verzichtet (diverse Kontroll- und Sicherheitsmechanismen erforderlich)
       > Business-Logik für Unternehmsnamen verfeinern (realistische, d.h. nicht zu strikte aber trotzdem kreative Verwendung von Sonderzeichen ermöglichen)
       
 ____________________________________________________________________________________________________________________ 
 bottom.php
+
     Abstrakt:
+    
      > bottom code für jede subpage ausgelagert
 
 ____________________________________________________________________________________________________________________
@@ -52,7 +58,9 @@ functions.php
 
 ____________________________________________________________________________________________________________________
 header.php
+
     Abstrakt:
+    
      > HTML header für jede subpage ausgelagert
      > wenn logged out dann login button et vice versa
      > Service button nur wenn Unternehemsdaten erfolgreich eingetragen und in Datenbank gespeichert
@@ -92,7 +100,9 @@ start.php
 
 ____________________________________________________________________________________________________________________
 top.php
+
     Abstrakt:
+    
      > top code für jede subpage ausgelagert
      > HTML head + CSS
 
