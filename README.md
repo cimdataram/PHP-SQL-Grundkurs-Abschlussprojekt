@@ -55,7 +55,11 @@ bottom.php
 ____________________________________________________________________________________________________________________
 functions.php
 
-
+    Abstrakt:
+    
+     > ausgelagerte Funktionen für:
+        > Plausibilitätsprüfung der Formularfelder
+        > Empfang und Voraufbereitung der Daten über Get-Methode
 ____________________________________________________________________________________________________________________
 header.php
 
@@ -77,26 +81,37 @@ logout.php
 ____________________________________________________________________________________________________________________
 service.php
 
-
-
+    Abstrakt:
+    
+     > leere (fiktive Service-Seite)
+     > nur Zugriff, wenn Accountdaten erfolgreich ausgefüllt und abgespeichert
 
 ____________________________________________________________________________________________________________________
 sessionstart.php
 
-
+    Abstrakt:
+    
+     > Bei erfolgreichem Login übergabe von der Kundendaten an Session
+  
 ____________________________________________________________________________________________________________________
 signup.php
 
-
+    Abstrakt:
+    
+     > Registrierungsformular mit Doppeltprüfung in Datenbank
 
 ____________________________________________________________________________________________________________________
 sql.php
 
-
+    Abstrakt:
+    
+     >ausgelagerte SQL-Anfragen
 ____________________________________________________________________________________________________________________
 start.php
 
-
+    Abstrakt:
+    
+     > leere Startseite
 
 ____________________________________________________________________________________________________________________
 top.php
