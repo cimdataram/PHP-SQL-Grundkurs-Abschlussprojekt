@@ -8,9 +8,9 @@ HTML, CSS, Javascript, PHP, SQL
 ALLGEMEIN:
 
   To Do:
-    > stärker dynamisieren:
-      > Spaltennamen aus Datenbank fetchen und über Schleifen als dynamische Variablen abrufen
-      > Statt Variablennamen hardcoden
+    stärker dynamisieren:
+      Spaltennamen aus Datenbank fetchen und über Schleifen als dynamische Variablen abrufen
+      Statt Variablennamen hardcoden
       
       > um durch direkte Arbeit in der Datenbank redundante und mehrfache Skriptänderungen in PHP zu vermeiden
     > Live-Kontrolle von User-Inputs ermöglichen damit User im Momment der Eingabe Feedback über Plausibiliät seiner Eingabedaten erhält
