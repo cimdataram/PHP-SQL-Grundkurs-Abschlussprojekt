@@ -71,12 +71,17 @@ header.php
 ____________________________________________________________________________________________________________________
 login.php
 
+    Abstrakt:
+    
+     > Login-Formular mit Plausibilitätskontrolle (analog zu account.php)
+     > bei Erfolg Session und Cookie starten
 
 ____________________________________________________________________________________________________________________
 logout.php
 
-
-
+    Abstrakt:
+    
+     > Bei Klick auf Login Session- und Cookiedaten löschen
 
 ____________________________________________________________________________________________________________________
 service.php
@@ -105,7 +110,7 @@ sql.php
 
     Abstrakt:
     
-     >ausgelagerte SQL-Anfragen
+     > ausgelagerte SQL-Anfragen
 ____________________________________________________________________________________________________________________
 start.php
 
