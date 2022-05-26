@@ -11,9 +11,12 @@ ALLGEMEIN:
     > stärker dynamisieren:
       > Spaltennamen aus Datenbank fetchen und über Schleifen als dynamische Variablen abrufen
       > Statt Variablennamen hardcoden
+      
       > um durch direkte Arbeit in der Datenbank redundante und mehrfache Skriptänderungen in PHP zu vermeiden
     > Live-Kontrolle von User-Inputs ermöglichen damit User im Momment der Eingabe Feedback über Plausibiliät seiner Eingabedaten erhält
       > Eventlistener der bei Veränderung der Formulardaten im Hintergrund absendet und sofort wieder updatet ohne Daten an die Datenbank zu senden
+      
+    > restlos alle sql-codes auslagern
 
 
 DATEIEN:
@@ -21,30 +24,74 @@ DATEIEN:
 info.php
 
 
-
+____________________________________________________________________________________________________________________
 account.php
     Abstrakt:
-    > Nach erfolgreichem Login können Kunden hier Ihre Unternehmensdaten eintragen
-    > Erst vollständiger und plausibler Eingabe und Speicherung der Daten in die Datenbank, Zugriff auf (fiktive) Service-Sektion
-
+      > Nach erfolgreichem Login können Kunden hier Ihre Unternehmensdaten eintragen
+      > Erst vollständiger und plausibler Eingabe und Speicherung der Daten in die Datenbank, Zugriff auf (fiktive) Service-Sektion
 
     Konkret:
-      > zu jedem Formularfeld individuelle Fehlermeldungen anhand der Plausibilitätskontolle
-      > 
-
+      > Bei leer gelassenem Pflichtfeld Fomrularfeld rot umranden
+      > Bei fehlgeschlagener Plausibilität 
+          > Formularfeld rot umranden und Infobutton rot färben
+          > Über Tooltip individuelle Fehlermeldung anhand Plausibilität je Formularfeld
 
     To Do:
       > bislang aus Zeitgründen auf Passwortupdate verzichtet (diverse Kontroll- und Sicherheitsmechanismen erforderlich)
       > Business-Logik für Unternehmsnamen verfeinern (realistische, d.h. nicht zu strikte aber trotzdem kreative Verwendung von Sonderzeichen ermöglichen)
-
+      
+____________________________________________________________________________________________________________________ 
 bottom.php
+    Abstrakt:
+     > bottom code für jede subpage ausgelagert
 
-
+____________________________________________________________________________________________________________________
 functions.php
 
 
-
+____________________________________________________________________________________________________________________
 header.php
-
-
+    Abstrakt:
+     > HTML header für jede subpage ausgelagert
+     > wenn logged out dann login button et vice versa
+     > Service button nur wenn Unternehemsdaten erfolgreich eingetragen und in Datenbank gespeichert
+____________________________________________________________________________________________________________________
 login.php
+
+
+____________________________________________________________________________________________________________________
+logout.php
+
+
+
+
+____________________________________________________________________________________________________________________
+service.php
+
+
+
+
+____________________________________________________________________________________________________________________
+sessionstart.php
+
+
+____________________________________________________________________________________________________________________
+signup.php
+
+
+
+____________________________________________________________________________________________________________________
+sql.php
+
+
+____________________________________________________________________________________________________________________
+start.php
+
+
+
+____________________________________________________________________________________________________________________
+top.php
+    Abstrakt:
+     > top code für jede subpage ausgelagert
+     > HTML head + CSS
+
